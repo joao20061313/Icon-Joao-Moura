@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Icon João Moura | Lançamento Unyon</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      color: #222;
+      background-color: #69d0d2;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #6da9aa;
+      padding: 15px 30px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    header .logo {
+      height: 80px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .banner {
+      background: url('imagens/banner.png') no-repeat center center;
+      background-size: cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #6da9aa;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    }
+
+    .banner h2 {
+      font-size: 36px;
+    }
+
+    .projetistas {
+      background: url('imagens/projetistas.png') no-repeat center center;
+      background-size: cover;
+      height: 650px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #6da9aa;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+      background-color: white;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.5)
+    }
+
+    h2 {
+      color: #1c1c1c;
+    }
+
+    .destaques, .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+
+    .galeria img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      border-radius: 8px;
+    }
+
+    .whatsapp {
+      display: block;
+      width: fit-content;
+      margin: 20px auto;
+      padding: 15px 30px;
+      background-color: #25D366;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #1c1c1c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="imagens/logo.png" alt="Logo Unyon" class="logo">
+    <h1>Icon João Moura</h1>
+    <h2>Unyon</h2>
+  </header>
+
+  <div class="banner">
+  </div>
+
+  <section>
+    <h2>Projetistas</h2>
+    <img src="imagens/projetistas.png" class="projetistas">
+  </section>
+
+  <section>
+    <h2>Sobre o Bairro</h2>
+    <p>A tradição ao encontro da modernidade. O bairro nobre da Zona Oeste Paulistana recebe bem aqueles que 
+      desejam fazer do local o seu novo lar. Com grande pluralidade no quesito lazer, Pinheiros possui 
+      restaurantes premiados, bares badalados, centros culturais e galerias de arte, ideal para aqueles que 
+      desejam se divertir.<br>
+
+       Em contrapartida, também é um recanto de tranquilidade para aqueles que buscam desacelerar da intensa 
+      rotina, e claro, manter a qualidade de vida.<br>
+
+       Com vastas áreas verdes, boa localização, segurança, ruas arborizadas, fácil mobilidade e rodeado dos 
+      melhores endereços da cidade, como a região da Avenida Paulista e da Faria Lima, assim como os bairros 
+      Jardins e Vila Madalena. Tudo isso faz de Pinheiros uma das regiões mais privilegiadas de São Paulo.</p>
+  </section>
+
+  <section>
+    <h2>Diferenciais</h2>
+    <div class="destaques">
+      <div class="card">✅ Piscina climatizada no rooftop</div>
+      <div class="card">✅ Co-working e espaço gourmet</div>
+      <div class="card">✅ Infraestrutura para carro elétrico</div>
+      <div class="card">✅ Portaria blindada e sistema de segurança</div>
+      <div class="card">✅ Pet Care, Lavanderia e Mini Market</div>
+      <div class="card">✅ Localização a 800m do metrô Oscar Freire</div>
+      <div class="card">✅ Elevadores com controle de acesso</div>
+      <div class="card">✅ Localização a 150m do hospital Espaço Einstein</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Galeria</h2>
+    <div class="carousel-container">
+      <div class="carousel">
+        <img src="imagens/imagem1.png" alt="Playgorund e Petplace" class="carousel-image active">
+        <img src="imagens/imagem2.png" alt="Mini Market" class="carousel-image">
+        <img src="imagens/imagem3.png" alt="Delivery" class="carousel-image">
+        <img src="imagens/imagem4.png" alt="Pet Care" class="carousel-image">
+        <img src="imagens/imagem5.png" alt="Lavanderia" class="carousel-image">
+        <img src="imagens/imagem6.png" alt="Bicicletário" class="carousel-image">
+        <img src="imagens/imagem7.png" alt="Co-working" class="carousel-image">
+        <img src="imagens/imagem8.png" alt="Academia" class="carousel-image">
+        <img src="imagens/imagem9.png" alt="Espaço Gourmet" class="carousel-image">
+        <img src="imagens/imagem10.png" alt="Piscina" class="carousel-image">
+      </div>
+      <button class="prev" onclick="changeSlide(-1)">❮</button>
+      <button class="next" onclick="changeSlide(1)">❯</button>
+    </div>
+  </section>
+  
+  <style>
+    .carousel-container {
+      position: relative;
+      max-width: 100%;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+  
+    .carousel {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+  
+    .carousel-image {
+      min-width: 100%;
+      transition: opacity 0.5s ease-in-out;
+      display: none;
+    }
+  
+    .carousel-image.active {
+      display: block;
+    }
+  
+    .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      z-index: 10;
+      border-radius: 50%;
+    }
+  
+    .prev {
+      left: 10px;
+    }
+  
+    .next {
+      right: 10px;
+    }
+  </style>
+  
+  <script>
+    let currentSlide = 0;
+    let slides;
+  
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.remove('active');
+        if (i === index) slide.classList.add('active');
+      });
+    }
+  
+    function changeSlide(n) {
+      currentSlide += n;
+      if (currentSlide >= slides.length) currentSlide = 0;
+      if (currentSlide < 0) currentSlide = slides.length - 1;
+      showSlide(currentSlide);
+    }
+  
+    document.addEventListener('DOMContentLoaded', () => {
+      slides = document.querySelectorAll('.carousel-image');
+      showSlide(currentSlide);
+      setInterval(() => changeSlide(1), 3000); // Troca a cada 3 segundos
+    });
+  </script>
+  
+  <section>
+    <h2>Quadro de áreas</h2>
+    <p>Uso: Residencial, Flat nR e Comercial.<br>
+      Torres: 01 Torre.<br>
+     Pavimentos: 04 subsolos + térreo + 23 pavimentos.<br>
+      Área do Terreno: 877,20 m².<br>
+      Área Construída:  10.932,51 m².<br>
+      Área Privativa:  6.799,67 m².<br>
+      Total de Unidades: 119 unidades.</p>
+      <h2>Unidades não residencias (NR)</h2>
+      <p>Unidades com metragem de 28 m² à 41 m² = ** 24 unidades.<br>
+        Unidades Garden com metragem de  46 m² à 67 m² = ** 6 unidades.<br>
+        Acesso restrito, pode ir até o 4º andar e aproveitar as estruturas do subsolo.<br>
+        Liberado para locação diária (Airbnb).</p>
+      <p class="valor">Valor aproximadamente de R$ 17 mil por metro quadrado, do 1º ao 4º andar.<style>.valor{color: red;}</style></p>
+      <h2>Unidades Residenciais</h2>
+      <p>Studios com metragem de 26 m² à 36 m² = ** 28 unidades.<br>
+        Studio Garden com metragem de 39 m² = ** 1 unidade.<br>
+        Acesso total ao prédio.<br>
+        Não é liberado para locação diária.</p>
+        <p class="valor">Valor aproximadamente de R$ 18 mil por metro quadrado, do 5º ao 7º andar.<style>.valor{color: red;}</style></p><br>
+        <p>Unidades de duas suites com metragem de 70 m² à 80 m² = ** 60 unidades.<br>Com vagas determinadas e livres apartir do 10º ao 22º andar.<br>
+          Acesso total ao prédio.<br>
+          Não é liberado para locação diária.</p>
+        <p class="valor">Valor aproximadamente de R$ 21 mil por metro quadrado, do 8º ao 22º andar.<style>.valor{color: red;}</style></p><br>
+  </section>
+
+  <section>
+    <h2>Tour Virtual - Studio de 29 m²</h2>
+    <div class="carousel-container" id="carousel2">
+      <div class="carousel">
+        <img src="imagens/studio1.png" alt="Planta" class="carousel2-image active">
+        <img src="imagens/studio2.png" alt="Sala e Cozinha" class="carousel2-image">
+        <img src="imagens/studio3.png" alt="Quarto e Sala" class="carousel2-image">
+        <img src="imagens/studio4.png" alt="Quarto" class="carousel2-image">
+        <img src="imagens/studio5.png" alt="Banheiro" class="carousel2-image">
+      </div>
+      <button class="prev" onclick="changeSlide2(-1)">❮</button>
+      <button class="next" onclick="changeSlide2(1)">❯</button>
+    </div>
+  </section>
+
+  <style>
+    .carousel-container {
+      position: relative;
+      max-width: 60%;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 8px;
+      margin-bottom: 40px;
+    }
+  
+    .carousel {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+  
+    .carousel2-image {
+      min-width: 100%;
+      display: none;
+      transition: opacity 0.5s ease-in-out;
+    }
+  
+    .carousel2-image.active {
+      display: block;
+    }
+  
+    .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      z-index: 10;
+      border-radius: 50%;
+    }
+  
+    .prev {
+      left: 10px;
+    }
+  
+    .next {
+      right: 10px;
+    }
+  </style>
+
+<script>
+  let currentSlide2 = 0;
+  let slides2;
+
+  function showSlide2(index) {
+    slides2.forEach((slide, i) => {
+      slide.classList.remove('active');
+      if (i === index) slide.classList.add('active');
+    });
+  }
+
+  function changeSlide2(n) {
+    currentSlide2 += n;
+    if (currentSlide2 >= slides2.length) currentSlide2 = 0;
+    if (currentSlide2 < 0) currentSlide2 = slides2.length - 1;
+    showSlide2(currentSlide2);
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    slides2 = document.querySelectorAll('.carousel2-image');
+    showSlide2(currentSlide2);
+    setInterval(() => changeSlide2(1), 5000); // Auto-play
+  });
+</script>
+
+<section>
+  <h2>Tour Virtual - Apartamento de 73 m²</h2>
+  <div class="carousel-container" id="carousel3">
+    <div class="carousel">
+      <img src="imagens/apt1.png" alt="Planta" class="carousel3-image active">
+      <img src="imagens/apt2.png" alt="Sala" class="carousel3-image">
+      <img src="imagens/apt3.png" alt="Cozinha e Sala" class="carousel3-image">
+      <img src="imagens/apt4.png" alt="Quarto" class="carousel3-image">
+      <img src="imagens/apt5.png" alt="Banheiro" class="carousel3-image">
+    </div>
+    <button class="prev" onclick="changeSlide3(-1)">❮</button>
+    <button class="next" onclick="changeSlide3(1)">❯</button>
+  </div>
+</section>
+
+<style>
+  .carousel-container {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 40px;
+  }
+
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel3-image {
+    min-width: 100%;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .carousel3-image.active {
+    display: block;
+  }
+
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
+</style>
+
+<script>
+let currentSlide3 = 0;
+let slides3;
+
+function showSlide3(index) {
+  slides3.forEach((slide, i) => {
+    slide.classList.remove('active');
+    if (i === index) slide.classList.add('active');
+  });
+}
+
+function changeSlide3(n) {
+  currentSlide3 += n;
+  if (currentSlide3 >= slides3.length) currentSlide3 = 0;
+  if (currentSlide3 < 0) currentSlide3 = slides3.length - 1;
+  showSlide3(currentSlide3);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  slides3 = document.querySelectorAll('.carousel3-image');
+  showSlide3(currentSlide3);
+  setInterval(() => changeSlide3(1), 5000); // Auto-play
+});
+</script>
+
+  <section>
+    <h2>Localização</h2>
+    <p>Rua João Moura, nº 548 – Pinheiros – São Paulo - SP</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.586931657658!2d-46.67715608502018!3d-23.58382876862211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59dc8ffedddf%3A0x3db14b9dce2ff77!2sR.%20Jo%C3%A3o%20Moura%2C%20548%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1610000000000!5m2!1spt-BR!2sbr"></iframe>
+  </section>
+
+  <section>
+    <h2>Interessado?</h2>
+    <p>Fale comigo diretamente pelo WhatsApp.</p>
+    <a class="whatsapp" href="https://wa.me/5511982811127" target="_blank">Chamar no WhatsApp</a>
+  </section>
+
+  <footer>
+    Corretor de Imóveis | CRECI 22061-J<br/>
+    © 2025 - Site desenvolvido para fins comerciais.
+  </footer>
+
+</body>
+</html>
